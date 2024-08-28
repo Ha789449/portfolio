@@ -204,7 +204,7 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 678px) {
     .title {
       h2 {
         &::after {
@@ -228,7 +228,37 @@
 
       &-info {
         &-list {
-          grid-template-columns: 1fr 1fr; // Display two items per line
+          grid-template-columns: 1fr 1fr; 
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 348px) {
+    .title {
+      h2 {
+        &::after {
+          width: 100px;
+        }
+      }
+    }
+
+    &-grid {
+      &-photo {
+        .overlay {
+          height: 223px;
+          width: 223px;
+        }
+
+        &-container {
+          height: 223px;
+          width: 223px;
+        }
+      }
+
+      &-info {
+        &-list {
+          grid-template-columns: 1fr ; 
         }
       }
     }
