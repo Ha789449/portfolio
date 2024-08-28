@@ -6,70 +6,38 @@
   gap: 1rem;
   justify-content: center;
   min-height: 60vh;
-
   &-title {
     color: var(--theme-color);
     font-size: var(--tsm2);
     font-family: var(--fira-code);
   }
-
   &-title-large {
     font-size: var(--tgiant);
     font-family: var(--raleway);
     color: var(--light-slate);
   }
-
   &-title-sub {
     color: var(--lightest-slate);
   }
-
   &-text {
     color: var(--slate);
     margin-right: 40%;
     font-size: var(--tlarge);
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.07rem;
     line-height: 1.6rem;
     font-weight: 600;
     font-family: var(--raleway);
   }
-
   &-button {
     margin-top: 2rem;
-
     .btn {
       padding: 1rem 2rem;
       font-size: var(--tsm1);
     }
   }
-
   @media screen and (max-width: 768px) {
     &-text {
       width: 90%;
-    }
-  }
-
-  @media screen and (max-width: 678px) {
-    margin-top: 1rem; // Reduce margin-top for smaller screens
-
-    &-title-large {
-      font-size: var(--tlarge2); // Adjust title size for smaller screens
-    }
-
-    &-text {
-      margin-right: 2px; // Remove the right margin
-      letter-spacing: 0.01rem;
-      width: 100%; // Make the text take up the full width
-      font-size: var(--tmd1); // Adjust font size for readability on smaller screens
-      line-height: 1.4rem; // Adjust line-height for smaller screens
-    }
-
-    &-button {
-      margin-top: 1.5rem; // Reduce the margin-top for the button
-    }
-
-    .btn {
-      padding: 0.8rem 1.5rem; // Reduce padding for smaller screens
-      font-size: var(--tsm2); // Slightly smaller font size for the button text
     }
   }
 }
