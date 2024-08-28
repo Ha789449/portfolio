@@ -49,17 +49,52 @@ footer {
   }
 }
 
-@media screen and (max-width: 1080px) {
+// Adjustments for screens less than 678px
+@media screen and (max-width: 678px) {
   footer {
+    flex-direction: column;
     padding: 10px 5px;
 
     .footer-link {
-      gap: 0.2rem;
+      width: 100%;
+      gap: 0.5rem;
       font-size: var(--tsm2);
+      align-items: center;
+
+      .footer-info {
+        text-align: center;
+        font-size: var(--tsm2);
+      }
+
+      .footer-icon-link {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
     }
   }
 }
 
+@media screen and (max-width: 480px) {
+  footer {
+    .footer-link {
+      gap: 0.4rem;
+      font-size: var(--tsm3);
+      padding: 8px;
+
+      .footer-info {
+        font-size: var(--tsm3);
+      }
+
+      .footer-icon-link {
+        padding: 8px;
+        font-size: var(--tsm3);
+      }
+    }
+  }
+}
+
+// Adjustments for larger screens
 @media screen and (min-width: 768px) {
   footer {
     .footer-link {
@@ -76,7 +111,6 @@ footer {
 
       .footer-icon-link {
         display: none;
-      
       }
     }
   }

@@ -12,6 +12,7 @@
     font-size: var(--tbase);
     font-family: var(--fira-code);
     font-weight: 300;
+
     &::before {
       counter-increment: title;
       content: "0" counter(title) ".";
@@ -40,7 +41,7 @@
   .contact-cta {
     margin-top: 1rem;
     width: 100%;
-    
+
     .contact-form {
       width: 100%;
       display: flex;
@@ -61,7 +62,7 @@
           border-radius: 5px;
           outline: none;
           background: var(--second-bg-color);
-          color:var(  --lightest-slate);
+          color: var(--lightest-slate);
         }
       }
 
@@ -75,7 +76,7 @@
         margin-bottom: 1rem;
         resize: none;
         background: var(--second-bg-color);
-        color:var(  --lightest-slate);
+        color: var(--lightest-slate);
       }
 
       .btn {
@@ -112,15 +113,19 @@
   // Responsive Styles
   @media screen and (max-width: 1080px) {
     margin: 5rem auto;
+
     .contact-title {
       font-size: 2.5rem;
     }
+
     .contact-sub-title {
       font-size: 2rem;
     }
+
     .contact-text {
       font-size: 1.2rem;
     }
+
     .contact-form {
       .box {
         flex-direction: column;
@@ -130,20 +135,25 @@
 
   @media screen and (max-width: 768px) {
     margin: 3rem auto;
+
     .contact-title {
       font-size: 2rem;
     }
+
     .contact-sub-title {
       font-size: 1.5rem;
     }
+
     .contact-text {
       font-size: 1rem;
     }
+
     .contact-cta {
       .contact-form {
         .box {
           flex-direction: column;
         }
+
         .btn {
           padding: 0.8rem 1.5rem;
           font-size: var(--tbase);
@@ -152,22 +162,63 @@
     }
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 600px) {
     margin: 2rem auto;
+    padding: 0 1rem; // Add padding to prevent content from touching screen edges
+
+    .contact-title {
+      font-size: 1.8rem;
+      text-align: center; // Ensure title is centered
+    }
+
+    .contact-sub-title {
+      font-size: 1.4rem;
+      text-align: center; // Ensure sub-title is centered
+    }
+
+    .contact-text {
+      font-size: 1rem;
+      text-align: center; // Ensure text is centered
+    }
+
+    .contact-cta {
+      .contact-form {
+        .box {
+          flex-direction: column;
+        }
+
+        .btn {
+          padding: 0.7rem 1.4rem;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 348px) {
+    margin: 1rem auto;
+
     .contact-title {
       font-size: 1.5rem;
     }
+
     .contact-sub-title {
       font-size: 1.2rem;
     }
+
     .contact-text {
       font-size: 0.9rem;
     }
+
     .contact-cta {
       .contact-form {
+        .box {
+          flex-direction: column;
+        }
+
         .btn {
           padding: 0.6rem 1.2rem;
-          font-size: 0.9rem;
+          font-size: 0.8rem;
         }
       }
     }
