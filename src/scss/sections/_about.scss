@@ -54,6 +54,7 @@
       &-list {
         display: grid;
         grid-template-columns: 33% 33% 33%;
+        gap: 1rem; /* Add gap here for spacing */
         list-style-type: none;
         padding: 0 3rem;
 
@@ -154,6 +155,7 @@
       &-info {
         &-list {
           grid-template-columns: 1fr;
+          gap: 1rem; /* Add gap here for spacing */
         }
       }
     }
@@ -229,6 +231,7 @@
       &-info {
         &-list {
           grid-template-columns: 1fr 1fr; 
+          gap: 1rem; /* Add gap here for spacing */
         }
       }
     }
@@ -258,7 +261,8 @@
 
       &-info {
         &-list {
-          grid-template-columns: 1fr ; 
+          grid-template-columns: 1fr; 
+          gap: 1rem; /* Add gap here for spacing */
         }
       }
     }
