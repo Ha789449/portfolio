@@ -49,8 +49,8 @@ footer {
   }
 }
 
-// Adjustments for screens less than 678px
-@media screen and (max-width: 678px) {
+// Responsive adjustments for screens less than 678px and above 248px
+@media screen and (max-width: 678px) and (min-width: 248px) {
   footer {
     flex-direction: column;
     padding: 10px 5px;
@@ -75,6 +75,7 @@ footer {
   }
 }
 
+// Additional adjustments for screens less than 480px
 @media screen and (max-width: 480px) {
   footer {
     .footer-link {
@@ -94,7 +95,7 @@ footer {
   }
 }
 
-// Adjustments for larger screens
+// Adjustments for larger screens (768px and above)
 @media screen and (min-width: 768px) {
   footer {
     .footer-link {
