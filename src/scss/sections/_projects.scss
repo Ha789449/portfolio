@@ -280,8 +280,8 @@
     }
   }
 
-  @media screen and (max-width: 348px) {
-    margin: 3rem 0;
+  @media screen and (max-width: 478px) {
+    margin: 4rem 0;
 
     .title {
       h2 {
@@ -293,19 +293,160 @@
     }
 
     &-container {
+      gap: 3rem;
+
       .project {
+        flex-direction: column;
+
         &-image {
           &-container {
-            width: 250px;
-            height: 250px;
+            width: 100%;
+            height: 200px;
           }
         }
 
         .project-info {
-          width: 250px;
+          width: 100%;
           height: auto;
+          align-items: center;
+
+          &-description {
+            background-color: transparent;
+
+            p {
+              padding: 1rem;
+              text-align: center;
+            }
+          }
+
+          &-links {
+            justify-content: center;
+          }
+        }
+
+        &:nth-of-type(even) {
+          justify-content: center;
+
+          .project-image {
+            left: 0;
+            right: initial;
+          }
+
+          .project-info {
+            align-items: center;
+
+            &-description {
+              p {
+                display: none;
+              }
+            }
+          }
         }
       }
     }
-  }
-}
+  
+      }
+      @media screen and (max-width: 478px) {
+        margin: 4rem 0;
+      
+        .title {
+          h2 {
+            font-size: var(--txlarge);
+            &::after {
+              display: none;
+            }
+          }
+        }
+      
+        &-container {
+          gap: 3rem;
+      
+          .project {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      
+            &-info {
+        order: 1;
+              width: 100%;
+              text-align: center;
+              align-items: center;
+      
+              &-title {
+            
+                margin-bottom: 1rem; 
+              }
+            }
+      
+            &-image {
+              order: 2; 
+              position: static;
+              width: 100%;
+      
+              &-container {
+                width: 100%;
+                height: 200px;
+              }
+      
+              &-overlay {
+                display: none;
+              }
+      
+              img {
+                width: 100%;
+                height: 100%;
+                filter: grayscale(100%); 
+              }
+            }
+      
+            .project-info {
+          
+              width: 100%;
+              height: auto;
+              align-items: center;
+      
+              &-description {
+            
+                background-color: transparent;
+                display: block;
+      
+                p {
+                  padding: 1rem;
+                  text-align: center;
+                }
+              }
+      
+              &-links {
+                justify-content: center;
+              }
+            }
+      
+            &:nth-of-type(even) {
+              justify-content: center;
+      
+              .project-image {
+                left: 0;
+                right: initial;
+              }
+      
+              .project-info {
+                align-items: center;
+      
+                &-description {
+                  p {
+                    display: block;
+                    text-align: center;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      
+      
+    }
+  
+
+
