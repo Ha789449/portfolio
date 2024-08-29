@@ -275,7 +275,7 @@
     }
   }
   
-  @media screen and (max-width: 478px) {
+  @media screen and (max-width: 468px) {
     .title {
       h2 {
         &::after {
@@ -285,7 +285,7 @@
           top: 20px;
           width: 120px;
           height: 2px;
-          margin-left: 180px;
+          margin-left: 170px;
           background-color: var(--lightest-navy);
         }
       }
