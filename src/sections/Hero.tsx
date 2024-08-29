@@ -68,8 +68,8 @@ function Hero() {
         }}
       >
         <Button
-          text="DownLoad CV"
-          link="http://localhost:3000/resume.pdf"
+          text="Download CV"
+          link="/resume.pdf" 
         />
       </motion.div>
     </div>
