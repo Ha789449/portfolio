@@ -52,7 +52,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a student of BS Computer Science at SZABIST University Islamabad with expertise in frontend web development using React.js, Next.js, and Tailwind CSS. Currently, I&apos;m learning Python and plan to use it for backend development. I have also completed my internship as a frontend web developer at&nbsp;
+        I&apos;m a BS Computer Science student at SZABIST University Islamabad, learning Python for backend development. I recently completed an internship as a frontend web developer  at&nbsp;
         <Link href="https://www.linkedin.com/company/tmr-consulting-pvt-limited/?originalSubdomain=pk" target="_blank" className="link">
           TMR Consulting.
         </Link>
@@ -69,7 +69,7 @@ function Hero() {
       >
         <Button
           text="Download CV"
-          link="/resume.pdf" 
+          link="https://zainiiportfolioz.vercel.app/resume.pdf" 
         />
       </motion.div>
     </div>
