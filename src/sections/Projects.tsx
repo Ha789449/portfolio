@@ -9,7 +9,7 @@ function Projects() {
     {
       image: "/project5.png",
       projectName: "E commerce App",
-      projectLink: "",
+      projectLink: "https://e-commerce-web-delta-one.vercel.app/",
       projectDescription:
      "I developed an e-commerce website using React, Tailwind CSS, and Redux Toolkit, featuring responsive design and dynamic product displays. It integrates a fake API for data fetching, includes product filtering, cart management, and seamless user interactions.",
      projectTech:
@@ -21,7 +21,7 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://e-commerce-web-delta-one.vercel.app/",
       },
     },
     {
