@@ -45,7 +45,7 @@ function Projects() {
     {
       image: "/project3.png",
       projectName: "E commerce App",
-      projectLink: "",
+      projectLink: "https://e-commercewebs.vercel.app/",
       projectDescription:
       "I built an e-commerce website with React, featuring a responsive design, smooth animations, and dynamic product displays. It includes sections for top products, testimonials, a newsletter, and an interactive order popup",
       projectTech: [
@@ -54,8 +54,8 @@ function Projects() {
      
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/ZAIN-GITUP/e-commerce-websites",
+        externalLink: "https://e-commercewebs.vercel.app/",
       },
     },
     {
