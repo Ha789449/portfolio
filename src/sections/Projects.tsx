@@ -20,14 +20,14 @@ function Projects() {
      
       ],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/ZAIN-GITUP/e-commerce-web",
         externalLink: "https://e-commerce-web-delta-one.vercel.app/",
       },
     },
     {
       image: "/project4.png",
       projectName: "signup setup ",
-      projectLink:"",
+      projectLink:"https://loginsetupbyzain.netlify.app/",
       projectDescription:
      "This project includes a responsive login, signup, and OTP verification system, developed using Next.js, Tailwind CSS, Redux Toolkit, and Axios. The user-friendly design, inspired by Figma, ensures secure, real-time authentication with a modern interface.",
       projectTech: [
@@ -38,8 +38,8 @@ function Projects() {
 
       ],
       projectExternalLinks: {
-        github: "",
-        externalLink: "",
+        github: "https://github.com/ZAIN-GITUP/NEXT-WEB-APP",
+        externalLink: "https://loginsetupbyzain.netlify.app/",
       },
     },
     {
@@ -93,24 +93,6 @@ function Projects() {
       },
     },
  
-    {
-      image: "/project4.png",
-      projectName: "signup setup ",
-      projectLink:"",
-      projectDescription:
-     "This project includes a responsive login, signup, and OTP verification system, developed using Next.js, Tailwind CSS, Redux Toolkit, and Axios. The user-friendly design, inspired by Figma, ensures secure, real-time authentication with a modern interface.",
-      projectTech: [
-        "React",
-        "Next",
-        "Redux Toolkit",
-        "Tailwind css",
-
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "",
-      },
-    },
  
   ];
   return (
