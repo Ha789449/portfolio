@@ -7,6 +7,58 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project5.png",
+      projectName: "E commerce App",
+      projectLink: "",
+      projectDescription:
+     "I developed an e-commerce website using React, Tailwind CSS, and Redux Toolkit, featuring responsive design and dynamic product displays. It integrates a fake API for data fetching, includes product filtering, cart management, and seamless user interactions.",
+     projectTech:
+      [ "React",
+        "Redux tookit",
+        "fake store api",
+        "Tailwind CSS",
+     
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "",
+      },
+    },
+    {
+      image: "/project4.png",
+      projectName: "signup setup ",
+      projectLink:"",
+      projectDescription:
+     "This project includes a responsive login, signup, and OTP verification system, developed using Next.js, Tailwind CSS, Redux Toolkit, and Axios. The user-friendly design, inspired by Figma, ensures secure, real-time authentication with a modern interface.",
+      projectTech: [
+        "React",
+        "Next",
+        "Redux Toolkit",
+        "Tailwind css",
+
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "",
+      },
+    },
+    {
+      image: "/project3.png",
+      projectName: "E commerce App",
+      projectLink: "",
+      projectDescription:
+      "I built an e-commerce website with React, featuring a responsive design, smooth animations, and dynamic product displays. It includes sections for top products, testimonials, a newsletter, and an interactive order popup",
+      projectTech: [
+        "React",
+        "Tailwind CSS",
+     
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "",
+      },
+    },
+    {
       image: "/project1.png",
       projectName: "Tower Of Honoia",
       projectLink: "",  
@@ -40,22 +92,7 @@ function Projects() {
         externalLink: "",
       },
     },
-    {
-      image: "/project3.png",
-      projectName: "E commerce App",
-      projectLink: "",
-      projectDescription:
-      "I built an e-commerce website with React, featuring a responsive design, smooth animations, and dynamic product displays. It includes sections for top products, testimonials, a newsletter, and an interactive order popup",
-      projectTech: [
-        "React",
-        "Tailwind CSS",
-     
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "",
-      },
-    },
+ 
     {
       image: "/project4.png",
       projectName: "signup setup ",
@@ -74,24 +111,7 @@ function Projects() {
         externalLink: "",
       },
     },
-    {
-      image: "/project5.png",
-      projectName: "E commerce App",
-      projectLink: "",
-      projectDescription:
-     "I developed an e-commerce website using React, Tailwind CSS, and Redux Toolkit, featuring responsive design and dynamic product displays. It integrates a fake API for data fetching, includes product filtering, cart management, and seamless user interactions.",
-     projectTech:
-      [ "React",
-        "Redux tookit",
-        "fake store api",
-        "Tailwind CSS",
-     
-      ],
-      projectExternalLinks: {
-        github: "",
-        externalLink: "",
-      },
-    },
+ 
   ];
   return (
     <div className="projects" id="work">
