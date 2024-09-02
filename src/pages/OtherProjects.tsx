@@ -25,7 +25,7 @@ function OtherProjects() {
 
   const projectsData = [
     {
-      image: "/project6.png",
+      image: "/otherproject1.png",
       projectName: "To DO LIST",
       projectLink: "https://simpletodos-nu.vercel.app/",
       projectDescription:
