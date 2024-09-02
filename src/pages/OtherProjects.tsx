@@ -29,7 +29,7 @@ function OtherProjects() {
       projectName: "To DO LIST",
       projectLink: "https://simpletodos-nu.vercel.app/",
       projectDescription:
-    "I created a To-Do list application using React and Tailwind CSS. The app allows users to add, delete, complete, and edit tasks. It features a responsive design with dynamic state management. Users can manage their tasks efficiently through an intuitive interface, which includes a form for adding new tasks, a list for viewing tasks, and a popup for editing existing tasks.",
+    "I created a To-Do list application using React and Tailwind CSS. The app allows users to add, delete, complete, and edit tasks. It features a responsive design with dynamic state management.",
 
      projectTech:
       [ "React",
