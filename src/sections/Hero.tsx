@@ -28,7 +28,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Zain ul Abdin.
+        Abdul Hakeem
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
@@ -69,7 +69,7 @@ function Hero() {
       >
         <Button
           text="Download CV"
-          link="https://zainiiportfolioz.vercel.app/resume.pdf" 
+          link="https://Hakeemportfolioz.vercel.app/resume.pdf" 
         />
       </motion.div>
     </div>

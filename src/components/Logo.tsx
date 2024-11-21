@@ -1,18 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion"; // Make sure framer-motion is installed
 
 function Logo() {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    setIsLoaded(true);
+  }, []);
+
   return (
-    <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <motion.svg
+      id="logo"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 100 100"
+      initial={{ opacity: 0 }} // Start with opacity 0
+      animate={{ opacity: isLoaded ? 1 : 0 }} // Fade in after loading
+      transition={{ duration: 0.5 }} // Animation duration
+    >
       <title>Logo</title>
       <g>
-        <g id="Z" transform="translate(35.000000, 35.000000)">
+        {/* Main 'H' structure */}
+        <g id="H" transform="translate(25.000000, 25.000000)">
           <path
             fill="currentColor"
-            stroke="currentColor" 
-            strokeWidth="4" 
-            d="M 24.764 5.562v-0.769c-0-0.166-0.134-0.3-0.3-0.3-0 0-0.001 0-0.001 0h-16.639c-0 0-0 0-0.001 0-0.165 0-0.299 0.134-0.299 0.299 0 0 0 0 0 0.001v-0 0.929c0 0 0 0 0 0.001 0 0.165 0.134 0.299 0.299 0.299 0 0 0 0 0.001 0h14.752l-15.502 20.223c-0.037 0.051-0.059 0.115-0.059 0.185 0 0.166 0.134 0.3 0.3 0.3h16.639c0 0 0 0 0.001 0 0.165 0 0.299-0.134 0.299-0.299v-0.929c0 0 0 0 0-0.001 0-0.165-0.134-0.299-0.299-0.299-0 0-0 0-0.001 0h-14.752l15.502-20.223c0.037-0.051 0.059-0.115 0.059-0.185z"
+            stroke="currentColor"
+            strokeWidth="4"
+            d="M 10,0
+               L 10,50
+               M 40,0
+               L 40,50
+               M 10,25
+               L 40,25"
           />
         </g>
+        {/* Outer Border */}
         <path
           stroke="currentColor"
           strokeWidth="5"
@@ -23,10 +44,10 @@ function Logo() {
                   L 11, 72
                   L 50, 95
                   L 89, 73
-                  L 89, 28 z"
+                  L 89, 28"
         />
       </g>
-    </svg>
+    </motion.svg>
   );
 }
 

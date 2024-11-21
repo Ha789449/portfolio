@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Hi! My name is zain, andI am passionate about creating visually stunning and intuitive websites that captivate users and provide seamless experiences. Through my expertise in HTML, CSS, and JavaScript, React.jsx ,neXt.tsx ,Tailwindcss .I craft responsive designs that work flawlessly across devices
+            Hi! My name is Hakeem, andI am passionate about creating visually stunning and intuitive websites that captivate users and provide seamless experiences. Through my expertise in HTML, CSS, and JavaScript, React.jsx ,neXt.tsx ,Tailwindcss .I craft responsive designs that work flawlessly across devices
             digital content for the web. My interest in web development was
             sparked in 2022 when I created my first project called login page setup,  built using HTML CSS javascripts.
           </p>
@@ -62,7 +62,7 @@ function About() {
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/zainii.jpeg" alt="profile" fill />
+            <Image src="/Hakeem.jpeg" alt="profile" fill />
           </div>
         </div>
       </div>

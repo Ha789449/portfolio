@@ -39,7 +39,7 @@ function Projects() {
 
       ],
       projectExternalLinks: {
-        github: "https://github.com/ZAIN-GITUP/NEXT-WEB-APP",
+        github: "https://github.com/Ha789449",
         externalLink: "https://loginsetupbyzain.netlify.app/",
       },
     },
@@ -55,8 +55,8 @@ function Projects() {
      
       ],
       projectExternalLinks: {
-        github: "https://github.com/ZAIN-GITUP/e-commerce-websites",
-        externalLink: "https://e-commercewebs.vercel.app/",
+        github: "https://github.com/Ha789449/Ecommerce-website-",
+        externalLink: "https://vercel.com/ha789449s-projects/orignalecomercewebsite",
       },
     },
     {

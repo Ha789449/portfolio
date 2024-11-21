@@ -1,30 +1,27 @@
 import Link from "next/link";
 import React from "react";
-
-import {
-  FiGithub,
-  FiInstagram,
-  FiLinkedin
-} from "react-icons/fi";
+import { FiGithub, FiInstagram, FiLinkedin } from "react-icons/fi";
 import { motion } from "framer-motion";
 
 function SocialIcons() {
-  
   const socialLinks = [
-    { name: "Github", icon: <FiGithub />, link: "https://github.com/ZAIN-GITUP/ZAIN-GITUP" },
-    
+    {
+      name: "Github",
+      icon: <FiGithub />,
+      link: "https://github.com/Ha789449", // Updated GitHub Link
+    },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/zain-ul-abdin-ghani15/",
+      link: "https://www.linkedin.com/feed/", // Updated LinkedIn Link
     },
     {
       name: "Instagram",
       icon: <FiInstagram />,
-      link: "",
+      link: "https://www.instagram.com/", // Add Instagram link here if needed
     },
-  
   ];
+
   return (
     <motion.div
       className="social-icons"

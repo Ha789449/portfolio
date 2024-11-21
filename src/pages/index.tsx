@@ -24,7 +24,7 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>ZAIN UL ABDIN </title>
+        <title>Abdul Hakeem </title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       {showContent && (
